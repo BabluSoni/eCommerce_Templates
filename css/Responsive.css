@@ -1,0 +1,308 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    /* All Navbar */
+    .header_top p {
+        font-size: 0.7rem;
+        padding-top: 10px;
+    }
+    .header_icon {
+        margin-right: 5px;
+        padding-top: 10px;
+    }
+    .logo,
+    .cart {
+        margin-left: 85px;
+    }
+    .main-left-div {
+        border-radius: 6px;
+        margin-bottom: 10px;
+    }
+    .mega-list ul {
+        background: var(--skyblue);
+        border: none;
+        border-radius: 50px;
+    }
+    .dropdown-parent {
+        margin-left: -230px;
+    }
+    .dropdown-child-column {
+        margin-bottom: 20px;
+    }
+    .menu-banner-img {
+        width: 300px;
+        height: 80px;
+        margin-left: 218px;
+        margin-bottom: 20px;
+    }
+    .nav-last-div {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        background: transparent;
+    }
+    .fa-gift {
+        font-size: 2.5rem;
+        margin-left: -40px;
+    }
+    /* Slider */
+    .first-slider-row,
+    .second-slider-row,
+    .third-slider-row {
+        height: auto;
+        display: none;
+    }
+    /* sloder lower grid container */
+    .slider-down-grid-banner {
+        margin-bottom: 15px;
+        padding-right: 20px;
+    }
+    /* great deal banner */
+    .deal_banner_content {
+        text-align: center;
+    }
+    .deal_btn {
+        padding: 10px 20px;
+        font-size: 0.8rem;
+    }
+    .deal_banner_btn {
+        text-align: center;
+    }
+    /* rounded cartegory */
+    .rounded-category-box {
+        margin: 0px 5px;
+    }
+    .rounded-category-box:nth-child(5) {
+        display: none;
+    }
+    .rounded-category-btn {
+        padding: 10px 20px;
+        font-size: 0.5rem;
+    }
+    /* items carasol */
+    .first_carasol {
+        display: none;
+    }
+    /* profile section */
+    .profile_img_box {
+        border: none;
+    }
+    .profile_inner_content {
+        text-align: center;
+    }
+    /* call us section */
+    .call_us_icon i {
+        font-size: 2.1rem;
+    }
+    .call_us_content p {
+        font-size: 0.9rem;
+    }
+    /* footer main */
+    .footer_subscribe_box {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_subscribe_input input {
+        width: 200px;
+        height: 30px;
+    }
+    /* footer social media icons */
+    .playstore_box {
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+}
+
+
+/* media query for phones */
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    .header_top p {
+        font-size: 0.8rem;
+        margin-left: 10px;
+    }
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .logo,
+    .cart {
+        margin-left: 85px;
+    }
+    .main-left-div {
+        border-radius: 6px;
+        margin-bottom: 10px;
+    }
+    .mega-list ul {
+        background: var(--skyblue);
+        border: none;
+        border-radius: 50px;
+    }
+    .dropdown-parent {
+        margin-left: -50px;
+    }
+    .dropdown-child-column {
+        margin-bottom: 20px;
+    }
+    .menu-banner-img {
+        width: 450px;
+        height: 120px;
+        margin-left: -16px;
+        margin-bottom: 20px;
+    }
+    .nav-last-div {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        background: transparent;
+    }
+    .fa-gift {
+        font-size: 2.5rem;
+        margin-left: -35px;
+    }
+    /* Slider */
+    .first-slider-row,
+    .second-slider-row,
+    .third-slider-row {
+        height: 45vh;
+        /* height: auto; */
+    }
+    .first-slider-column-1 img,
+    .first-slider-column-3 img,
+    .second-slider-column-1 img,
+    .second-slider-column-3 img {
+        width: 150px;
+        padding: 0px;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .first-slider-column-1 {
+        margin-left: -30px;
+        margin-right: 15px;
+    }
+    .second-slider-column-1 {
+        padding-right: 15px;
+    }
+    .first-slider-column-2,
+    .second-slider-column-2 {
+        padding: 15px 10px 10px 10px;
+    }
+    .first-slider-column-2 h1,
+    .second-slider-column-2 h1,
+    .third-slider-column-1 h1 {
+        font-size: 1.8rem;
+    }
+    .first-slider-column-2 h4,
+    .second-slider-column-2 h4,
+    .third-slider-column-1 h4 {
+        font-size: 0.9rem;
+    }
+    .first-slider-column-2 h3,
+    .second-slider-column-2 h3,
+    .third-slider-column-1 h3 {
+        font-size: 1rem;
+    }
+    .third-slider-column-1 {
+        margin-top: -40px;
+        margin-left: -20px;
+    }
+    .slider-btn {
+        padding: 8px 18px;
+        font-size: .8rem;
+    }
+    /* Slider Down Grid start */
+    .slider-down-grid-colunm {
+        margin: 0px 0px 10px 0px;
+        margin-left: 60px;
+    }
+    .slider-down-grid-banner {
+        width: 100%;
+    }
+    .slider-down-grid-content {
+        padding-left: 45px;
+    }
+    /* rounded cartegory */
+    .rounded-category-box {
+        margin: 0px 8px;
+    }
+    .rounded-category-btn {
+        padding: 10px 20px;
+        font-size: 0.5rem;
+    }
+    /* profile section */
+    .profile_row {
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+    .profile_img_box img {
+        width: 100px;
+        height: 100px;
+    }
+    .profile_inner_content h4 {
+        font-size: 0.9rem;
+    }
+    .profile_inner_content p {
+        font-size: 0.7rem;
+    }
+    .profile_inner_content {
+        padding-top: 10px;
+    }
+    /* call us section */
+    .call_us_icon i {
+        font-size: 2.2rem;
+    }
+    .call_us_content p {
+        font-size: 1rem;
+    }
+    /* footer main */
+    .footer_subscribe_box {
+        display: flex;
+        flex-direction: column;
+    }
+    /* footer social media icons */
+    .playstore_box {
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+}
+
+
+/* upto tablets  */
+
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
+    /* rounded cartegory */
+    .rounded-category-box {
+        margin: 0px 15px;
+    }
+    .rounded-category-btn {
+        padding: 10px 20px;
+        font-size: 0.7rem;
+    }
+    /* collection banner */
+    .collection_banner_content h2 {
+        font-size: 1.3rem;
+    }
+    .cillection_banner_button button {
+        font-size: 0.8rem;
+        padding: 7px 12px;
+    }
+    /* footer social media icons */
+    .playstore_box {
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+}
+
+
+/* form desktop */
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+    /* rounded cartegory */
+    .rounded-category-box {
+        margin: 0px 35px;
+    }
+    .rounded-category-btn {
+        padding: 10px 20px;
+        font-size: 0.7rem;
+    }
+}
