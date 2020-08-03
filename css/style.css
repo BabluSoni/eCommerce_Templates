@@ -465,7 +465,7 @@ html {
 }
 
 .women_fashion_banner_container {
-    background: url(/assets/img/7.jpg);
+    background: url(./assets/img/7.jpg);
     background-position: center center;
     background-size: cover;
 }
